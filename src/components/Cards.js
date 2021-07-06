@@ -5,17 +5,19 @@ import TranslateIcon from '@material-ui/icons/Translate';
 import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 import Card from './Card'
 import classes from './Cards.module.css'
-
+import Contexto from './store/contexto';
+import { useContext } from 'react';
 
 const Cards = (props) => {
-
+  const ctx=useContext(Contexto)
   return (
     <div className={classes.cards}>
-      <Card><SchoolSharpIcon fontSize="large" className={classes.icon}/></Card>
+      
+      <Card><SchoolSharpIcon fontSize="large" className={classes.icon} onClick={ctx.onShow}/></Card>
       <Card><CodeIcon fontSize="large" className={classes.icon}/></Card>
       <Card><TranslateIcon fontSize="large" className={classes.icon}/></Card> 
       <Card><WorkIcon fontSize="large" className={classes.icon}/></Card>
-      <Card><AccountCircleIcon fontSize="large" className={classes.icon}/></Card>
+      {ctx.show && <Card><AccountCircleIcon fontSize="large" className={classes.icon}/></Card>}
     </div>
   );
 };
