@@ -11,9 +11,9 @@ const Contact = (props) => {
       <>
         <div className={classes.contact}>
         <GitHubIcon fontSize="large" className={classes.icon} onClick={() => window.open('#', "_blank")}/>
-        <MailOutlineIcon fontSize="large" className={classes.icon}/>
+        <MailOutlineIcon fontSize="large" className={classes.icon} onClick={() => window.location.assign("mailto:xyz@abc.com")}/>
         <PhoneAndroidIcon fontSize="large" className={classes.icon}/>
-        <LinkedInIcon fontSize="large" className={classes.icon}/>
+        <LinkedInIcon fontSize="large" className={classes.icon} onClick={() => window.open('#', "_blank")}/>
         </div>
       </>
     );
