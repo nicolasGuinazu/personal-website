@@ -1,0 +1,33 @@
+.cards{
+
+    display: flex;
+    margin: auto;
+    height: 90%;
+    width: 100%;
+    margin: 0 auto;
+    position: fixed;
+    bottom: 39%;
+    align-items: center;
+    flex-wrap: wrap;   
+    opacity: 1;
+    animation: example 2s;
+}
+
+.icon{
+    color:rgb(235, 15, 198);
+    z-index: 10;
+    margin: auto;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+}
+.icon:hover{
+    opacity: 1;
+}
+
+/* The animation code */
+@keyframes example {
+    0% {opacity: 0}
+    100% {opacity: 1}
+  }
+  
