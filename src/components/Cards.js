@@ -17,7 +17,7 @@ const Cards = (props) => {
       <Card><CodeIcon fontSize="large" className={classes.icon}/></Card>
       <Card><TranslateIcon fontSize="large" className={classes.icon}/></Card> 
       <Card><WorkIcon fontSize="large" className={classes.icon}/></Card>
-      {ctx.show && <Card><AccountCircleIcon fontSize="large" className={classes.icon}/></Card>}
+      <Card><AccountCircleIcon fontSize="large" className={classes.icon}/></Card>
     </div>
   );
 };
