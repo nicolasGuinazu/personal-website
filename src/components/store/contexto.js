@@ -5,12 +5,37 @@ const Contexto=React.createContext({
     onShow:()=>{}
 });
 export const ContextoProvider=(props)=>{
-    const [show,setShow]=useState(false);
-    const onShowHandler=()=>{
-      setShow(!show) 
+    const [showBio,setshowBio]=useState(false);
+    const [showJob,setshowJob]=useState(false);
+    const [showLang,setshowLang]=useState(false);
+    const [showProg,setshowProg]=useState(false);
+    const [showEdu,setshowEdu]=useState(false);
+
+    const onShowBioHandler=()=>{
+        setshowBio(!showBio) 
     }
+    const onShowLangHandler=()=>{
+        setshowLang(!showLang) 
+      }
+    const onShowProgHandler=()=>{
+        setshowProg(!showProg) 
+    }
+    const onShowEduHandler=()=>{
+        setshowEdu(!showEdu) 
+      }
+    const onShowJobHandler=()=>{
+        setshowJob(!showJob) 
+      }
+
     return(
-        <Contexto.Provider value={{show:show, onShow:onShowHandler}}>
+        <Contexto.Provider value={{showBio,showJob,showLang,showProg,showEdu,
+         onShowBio:onShowBioHandler,
+         onShowLang:onShowLangHandler,
+         onShowProg:onShowProgHandler,
+         onShowEdu:onShowEduHandler,
+         onShowJob:onShowJobHandler
+
+         }}>
             {props.children}
         </Contexto.Provider>
     )
