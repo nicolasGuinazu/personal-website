@@ -13,11 +13,11 @@ const Cards = (props) => {
   return (
     <div className={classes.cards}>
       
-      <Card><SchoolSharpIcon fontSize="large" className={classes.icon} onClick={ctx.onShow}/></Card>
-      <Card><CodeIcon fontSize="large" className={classes.icon}/></Card>
-      <Card><TranslateIcon fontSize="large" className={classes.icon}/></Card> 
-      <Card><WorkIcon fontSize="large" className={classes.icon}/></Card>
-      <Card><AccountCircleIcon fontSize="large" className={classes.icon}/></Card>
+      <Card><SchoolSharpIcon fontSize="large" className={classes.icon}onClick={ctx.onShowEdu} /></Card>
+      <Card><CodeIcon fontSize="large" className={classes.icon} onClick={ctx.onShowProg}/></Card>
+      <Card><TranslateIcon fontSize="large" className={classes.icon} onClick={ctx.onShowLang}/></Card> 
+      <Card><WorkIcon fontSize="large" className={classes.icon} onClick={ctx.onShowJob}/></Card>
+      <Card><AccountCircleIcon fontSize="large" className={classes.icon} onClick={ctx.onShowBio}/></Card>
     </div>
   );
 };
