@@ -10,9 +10,9 @@ const MainCard = (props) => {
   const ctx=useContext(Contexto)
   return (
           <div className={classes.maincard} >
-            {/* <ProgLag/> 
-            <Languages/>*/}
-            {ctx.show && <Bio/>}
+            {ctx.showProg && <ProgLag/>} 
+            {ctx.showLang && <Languages/>}
+            {ctx.showBio && <Bio/>}
           </div>
   )
 
