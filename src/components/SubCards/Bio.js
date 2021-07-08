@@ -1,11 +1,12 @@
+
 import classes from './Bio.module.css'
-import selff from './selff.jpg'
+import portrait from './portrait.jpg'
 const Bio = (props) => {
     return (
       <>
       <section>
         <article className={classes.bio}>
-        <img src={selff}/>
+        <img src={portrait}/>
         <div className={classes.texto}>
         <h1>Hola soy Nicolas!</h1>
         <p>Desde el 2019 inicie mi camino en el apasionante mundo de la informatica y el desarrollo web</p>
