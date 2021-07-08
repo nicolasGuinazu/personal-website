@@ -1,16 +1,16 @@
 .maincard{
-    width: 70%;
+    width: 80%;
     height: 50%;
     background-color: rgb(255, 255, 255);
     border-radius: 5px;
     position: absolute;
-    bottom: 10%;
-    left: 15%;
+    bottom: 15%;
+    left: 12%;
     justify-content: center;
     align-items:center;
     cursor: pointer;
     transition: 1s ease;
     z-index: 130;
     color: rgb(0, 0, 0);
-    
+   
 }
