@@ -12,19 +12,39 @@ export const ContextoProvider=(props)=>{
     const [showEdu,setshowEdu]=useState(false);
 
     const onShowBioHandler=()=>{
-        setshowBio(!showBio) 
+        setshowBio(!showBio)
+        setshowLang(false)
+        setshowJob(false)
+        setshowProg(false)
+        setshowEdu(false)
     }
     const onShowLangHandler=()=>{
         setshowLang(!showLang) 
+        setshowBio(false)
+        setshowJob(false)
+        setshowProg(false)
+        setshowEdu(false)
       }
     const onShowProgHandler=()=>{
-        setshowProg(!showProg) 
+        setshowProg(!showProg)
+        setshowLang(false) 
+        setshowBio(false)
+        setshowJob(false)
+        setshowEdu(false)
     }
     const onShowEduHandler=()=>{
         setshowEdu(!showEdu) 
+        setshowProg(false)
+        setshowLang(false) 
+        setshowBio(false)
+        setshowJob(false)
       }
     const onShowJobHandler=()=>{
         setshowJob(!showJob) 
+        setshowEdu(false) 
+        setshowProg(false)
+        setshowLang(false) 
+        setshowBio(false)
       }
 
     return(
