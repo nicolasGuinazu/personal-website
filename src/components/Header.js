@@ -1,9 +1,10 @@
 import classes from './Header.module.css'
 import Switch from '@material-ui/core/Switch';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
-
+import { useContext } from 'react';
+import Contexto from './store/contexto';
 const Header = (props) => {
-  
+  const ctx=useContext(Contexto)
   return (
     <>
       <header className={classes.header}>
@@ -11,7 +12,7 @@ const Header = (props) => {
         <h1 className={classes.title}>Nicolas Guinazu</h1>
         
         <FormControlLabel
-        control={<Switch color="primary" name="checkedA" />}
+        control={<Switch color="primary" name="checkedA" checked={ctx.checked} onChange={ctx.handleChange}/>}
         label="English"
       />
         
