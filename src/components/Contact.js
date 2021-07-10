@@ -12,7 +12,7 @@ const Contact = (props) => {
         <div className={classes.contact}>
         <GitHubIcon fontSize="large" className={classes.icon} onClick={() => window.open('#', "_blank")}/>
         <MailOutlineIcon fontSize="large" className={classes.icon} onClick={() => window.location.assign("mailto:xyz@abc.com")}/>
-        <PhoneAndroidIcon fontSize="large" className={classes.icon}/>
+        <PhoneAndroidIcon fontSize="large" className={classes.icon}/><span>1132903840</span>
         <LinkedInIcon fontSize="large" className={classes.icon} onClick={() => window.open('#', "_blank")}/>
         </div>
       </>

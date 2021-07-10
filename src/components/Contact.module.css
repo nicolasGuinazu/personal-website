@@ -27,9 +27,20 @@
 .icon:hover{
     opacity: 1;
 }
-
+.icon:hover + span{
+    opacity: 1;
+    display: block;
+}
 @keyframes example {
     0% {opacity: 0}
     100% {opacity: 1}
   }
-  
+
+  span{
+      color: white;
+      opacity: 0;
+      display: none;
+      transition: all 3s ease-in;
+  }
+
+ 
