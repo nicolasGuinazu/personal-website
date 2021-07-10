@@ -10,7 +10,11 @@ export const ContextoProvider=(props)=>{
     const [showLang,setshowLang]=useState(false);
     const [showProg,setshowProg]=useState(false);
     const [showEdu,setshowEdu]=useState(false);
-
+    const [checked,setChecked]=useState(false);
+    
+    const handleChangeHandler=()=>{
+        setChecked(!checked)
+    }
     const onShowBioHandler=()=>{
         setshowBio(!showBio)
         setshowLang(false)
@@ -48,12 +52,13 @@ export const ContextoProvider=(props)=>{
       }
 
     return(
-        <Contexto.Provider value={{showBio,showJob,showLang,showProg,showEdu,
+        <Contexto.Provider value={{showBio,showJob,showLang,showProg,showEdu,checked,
          onShowBio:onShowBioHandler,
          onShowLang:onShowLangHandler,
          onShowProg:onShowProgHandler,
          onShowEdu:onShowEduHandler,
-         onShowJob:onShowJobHandler
+         onShowJob:onShowJobHandler,
+         handleChange:handleChangeHandler,
 
          }}>
             {props.children}
