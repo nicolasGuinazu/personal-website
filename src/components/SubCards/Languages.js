@@ -10,7 +10,7 @@ const Languages= (props) => {
               Espanol <StarIcon/><StarIcon/><StarIcon/><StarIcon/><StarIcon/>
               </div>
               <div>
-              Ingles  <StarIcon/><StarIcon/><StarIcon/><StarIcon/><StarOutlineIcon/>
+              English  <StarIcon/><StarIcon/><StarIcon/><StarIcon/><StarOutlineIcon/>
               </div>
               <div>
               Portugues  <StarIcon/><StarOutlineIcon/><StarOutlineIcon/><StarOutlineIcon/><StarOutlineIcon/>
