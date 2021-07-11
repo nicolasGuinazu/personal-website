@@ -17,7 +17,6 @@ const MainCard = (props) => {
             {ctx.showLang && <Languages/>}
             {ctx.showJob && <Exper/>}
             {ctx.showBio && <Bio/>}
-            {ctx.checked && alert('funciona!')}
           </div>
   )
 
