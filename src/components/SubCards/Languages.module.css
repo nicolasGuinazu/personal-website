@@ -3,7 +3,7 @@
     height: 80%;
     margin: auto;
     flex-wrap: wrap;
-    background-color: rgb(231, 22, 22);
+    background-color: #0000;
     display: flex;
    justify-content: space-around;
     border-radius: 5px;
@@ -11,7 +11,7 @@
     cursor: pointer;
     transition: 1s ease;
     z-index: 130;
-    color: #fff;
+    color: rgb(255, 136, 24);
     font-size: 2rem;
     font-weight: bold;
 }

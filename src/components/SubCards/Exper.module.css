@@ -11,14 +11,14 @@ q{
   height: 90%;
   margin: auto;
   flex-wrap: wrap;
-  background-color: rgb(231, 22, 22);
+  background-color: #0000;
   display: flex;
  justify-content: space-around;
   border-radius: 5px;
   align-items: baseline;
   cursor: pointer;
   transition: 1s ease;
-  color: #fff;
+  color: rgb(255, 136, 24);
   font-size: 1.2rem;
   font-weight: bold;
   animation: example 0.5s;
