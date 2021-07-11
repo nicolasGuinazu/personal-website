@@ -36,11 +36,3 @@
     100% {opacity: 1}
   }
 
-  .spanic{
-      color: white;
-      opacity: 0;
-      display: none;
-      transition: all 3s ease-in;
-  }
-
- 
