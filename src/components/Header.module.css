@@ -22,9 +22,9 @@
 
   .user{
     font-size: 2rem;
-    animation: example 2s 3 ease-in-out;
+    animation: exampl 2s 3 ease-in-out;
   }
-  @keyframes example {
+  @keyframes exampl {
     0% {opacity: 0}
     50% {opacity: 1}
     100% {opacity:0}
