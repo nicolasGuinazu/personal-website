@@ -29,4 +29,11 @@
     50% {opacity: 1}
     100% {opacity:0}
   }
-  
+  .ham{
+    color: red;
+  }
+  @media (min-width:767px){
+    .ham{
+      display: none;
+    }
+  }
