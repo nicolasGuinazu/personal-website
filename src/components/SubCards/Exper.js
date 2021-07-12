@@ -8,7 +8,7 @@ const Exper = (props) => {
     y Sociales. Universidad Nacional
     de Mar del Plata</p>
   <p>(2018 -2019) INFORMANTE TURISTICO.
-    Ente Muinicipal de Turismo Mar del Plata</p>
+    Ente Municipal de Turismo Mar del Plata</p>
   <p>(2013 -2019) SECRETARIA Y ACREDITACIONES.
     G2 Consultora MCI Argentina</p>
   <q> XV World Congress of Comparative Education Society</q>

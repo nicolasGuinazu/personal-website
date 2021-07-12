@@ -7,7 +7,7 @@ const Languages= (props) => {
   return (
           <div className={classes.languages} >
               <div>
-              Espanol <StarIcon/><StarIcon/><StarIcon/><StarIcon/><StarIcon/>
+              Español <StarIcon/><StarIcon/><StarIcon/><StarIcon/><StarIcon/>
               </div>
               <div>
               English  <StarIcon/><StarIcon/><StarIcon/><StarIcon/><StarOutlineIcon/>

@@ -6,7 +6,7 @@ import { useContext } from 'react';
 import Contexto from '../store/contexto';
 const Education = (props) => {
   const ctx = useContext(Contexto)
-  const spanish = (<><p><img src={fi} />Licenciatura en Informatica-Facultad de Ciencias Informaticas-Universidad Nacional de La Plata (En curso)</p>
+  const spanish = (<><p><img src={fi} /> Licenciatura en Informática - Facultad de Ciencias Informáticas-Universidad Nacional de La Plata (En curso)</p>
     <p><img src={fceys} />Licenciatura en Turismo-Facultad de Ciencias Económicas y Sociales. UNMDP (Finalizado)</p>
     <p><img src={dh} />Full Stack Web Development-Digital House</p></>)
   const english = (<><p><img src={fi} />Bachelor in Computer science-National University of La Plata (currently studying)</p>
