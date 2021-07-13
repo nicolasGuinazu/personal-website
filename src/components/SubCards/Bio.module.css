@@ -31,3 +31,9 @@
   color: rgb(255, 136, 24);
 }
  */
+ 
+@media (min-width:320px) and (max-width: 425px) {
+  .texto{
+    font-size: 0.5rem;
+  }
+}
