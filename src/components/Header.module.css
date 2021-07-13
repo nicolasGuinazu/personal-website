@@ -20,6 +20,11 @@
     padding-left: 10%;
   }
 
+  @media (min-width:320px) and (max-width: 425px) {
+    .title{
+     display: none;
+    }
+  }
   .user{
     font-size: 2rem;
     animation: exampl 2s 3 ease-in-out;
@@ -30,7 +35,7 @@
     100% {opacity:0}
   }
   .ham{
-    color: red;
+    color: rgb(235, 15, 198);
   }
   @media (min-width:767px){
     .ham{
