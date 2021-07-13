@@ -1,3 +1,7 @@
+
+@media (min-width:320px) and (max-width: 425px){
+    .contact{left: 6%;}
+}
 .contact{
     background-color: #000000;
     display: flex;
@@ -8,7 +12,7 @@
     margin: 0 auto;
     position: fixed;
     bottom: 15%;
-    left: -1.5%;
+    left: -1,5%;
     align-items: center;
     flex-wrap: wrap;   
     opacity: 1;
