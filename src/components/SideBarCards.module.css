@@ -1,0 +1,33 @@
+.sideBarCards{
+     
+    background-color: rgb(43, 205, 226);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 70%;
+    width: 30%;
+    position: fixed;
+    bottom: 17%;
+    left: -8%;
+    align-items: center;
+    flex-wrap: wrap;   
+    opacity: 1;
+    animation: example 500ms ease-in;
+
+}
+
+.icon{
+    color:rgb(235, 15, 198);
+
+    margin: auto;
+    opacity: 0.8;
+ 
+}
+.icon:hover{
+    opacity: 1;
+}
+
+@keyframes example {
+    0% {opacity: 0;left: -100%;}
+    100% {opacity: 1;left: -7%;}
+  }
