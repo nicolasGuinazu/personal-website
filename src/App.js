@@ -5,21 +5,20 @@ import Contact from './components/Contact'
 import { useState } from 'react'; 
 import ContactMailIcon from '@material-ui/icons/ContactMail';
 import MainCard from './components/MainCard';
+import { useContext} from 'react';
+import Contexto from '../src/components/store/contexto'
 
 function App(props) {
-  const [shows,setShows]=useState(false);
-  const cardToggleHandler=()=>{
-    setShows(!shows) 
-  }
+  const ctx=useContext(Contexto)
 
   return (
       <>
       
       <Header/>
-      {shows && <Contact/>}
+      {ctx.showContact && <Contact/>}
       <Cards />
       <MainCard/>
-      <button onClick={cardToggleHandler}><ContactMailIcon fontSize="large"/></button>
+      <button onClick={ctx.cardToggleHandler}><ContactMailIcon fontSize="large"/></button>
 
   
       </>
