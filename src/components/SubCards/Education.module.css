@@ -34,3 +34,22 @@ p img{
   0% {opacity: 0}
   100% {opacity: 1}
 }
+
+@media (min-width:320px) and (max-width: 425px) {
+
+  .edu p{
+    font-size: 1rem;
+    text-align: center;
+    padding-right: 10%;
+  }
+  .edu{
+    flex-direction: column;
+    padding-bottom: 10%;
+
+  }
+
+  p img{
+    max-width: 30px;
+    max-height: 30px;
+  }
+}

@@ -34,6 +34,19 @@
  
 @media (min-width:320px) and (max-width: 425px) {
   .texto{
-    font-size: 0.5rem;
+    font-size: 0.9rem;
+    margin-bottom: 10rem;
+    padding-bottom: 2rem;
+    text-align: center;
+  }
+  .bio{
+    flex-direction: column;
+    z-index: 1;
+  }
+
+
+  .bio img{
+    max-width: 40%;
+    margin: 0;
   }
 }
