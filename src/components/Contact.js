@@ -10,10 +10,10 @@ const Contact = (props) => {
     return (
       <>
         <div className={classes.contact}>
-        <GitHubIcon fontSize="large" className={classes.icon} onClick={() => window.open('#', "_blank")}/>
-        <MailOutlineIcon fontSize="large" className={classes.icon} onClick={() => window.location.assign("mailto:xyz@abc.com")}/>
+        <GitHubIcon fontSize="large" className={classes.icon} onClick={() => window.open('https://github.com/nicolasGuinazu', "_blank")}/>
+        <MailOutlineIcon fontSize="large" className={classes.icon} onClick={() => window.open("mailto:nicolasguinazu1@gmail.com")}/>
        {/*  <PhoneAndroidIcon fontSize="large" className={classes.icon}/> */}
-        <LinkedInIcon fontSize="large" className={classes.icon} onClick={() => window.open('#', "_blank")}/>
+        <LinkedInIcon fontSize="large" className={classes.icon} onClick={() => window.open('https://www.linkedin.com/in/nicolasguinazu91', "_blank")}/>
         </div>
       </>
     );
