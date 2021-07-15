@@ -1,6 +1,9 @@
 
-@media (min-width:320px) and (max-width: 425px){
-    .contact{left: 6%;}
+@media (min-width:300px) and (max-width: 600px){
+    .contact{right: 80%;}
+}
+@media (min-width:606px) and (max-width: 1000px){
+    .contact{right: 90%;}
 }
 .contact{
     background-color: #000000;
@@ -12,7 +15,7 @@
     margin: 0 auto;
     position: fixed;
     bottom: 15%;
-    left: -1,5%;
+    left: -1.5%;
     align-items: center;
     flex-wrap: wrap;   
     opacity: 1;
