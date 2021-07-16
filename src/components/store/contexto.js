@@ -5,7 +5,7 @@ const Contexto=React.createContext({
     onShow:()=>{}
 });
 export const ContextoProvider=(props)=>{
-    const [showBio,setshowBio]=useState(false);
+    const [showBio,setshowBio]=useState(true);
     const [showJob,setshowJob]=useState(false);
     const [showLang,setshowLang]=useState(false);
     const [showProg,setshowProg]=useState(false);
@@ -33,6 +33,7 @@ export const ContextoProvider=(props)=>{
         setshowProg(false)
         setshowEdu(false)
         setShowSideBar(false)
+        setShowContact(false)
     }
     const onShowLangHandler=()=>{
         setshowLang(!showLang) 
@@ -41,6 +42,7 @@ export const ContextoProvider=(props)=>{
         setshowProg(false)
         setshowEdu(false)
         setShowSideBar(false)
+        setShowContact(false)
       }
     const onShowProgHandler=()=>{
         setshowProg(!showProg)
@@ -49,6 +51,7 @@ export const ContextoProvider=(props)=>{
         setshowJob(false)
         setshowEdu(false)
         setShowSideBar(false)
+        setShowContact(false)
     }
     const onShowEduHandler=()=>{
         setshowEdu(!showEdu) 
@@ -57,6 +60,7 @@ export const ContextoProvider=(props)=>{
         setshowBio(false)
         setshowJob(false)
         setShowSideBar(false)
+        setShowContact(false)
       }
     const onShowJobHandler=()=>{
         setshowJob(!showJob) 
@@ -65,6 +69,7 @@ export const ContextoProvider=(props)=>{
         setshowLang(false) 
         setshowBio(false)
         setShowSideBar(false)
+        setShowContact(false)
       }
 
     return(
