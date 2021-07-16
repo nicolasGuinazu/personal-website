@@ -6,7 +6,7 @@ import Contexto from '../store/contexto';
 const Bio = (props) => {
   const ctx = useContext(Contexto)
   const spanish=(<>  
-   <img src={portrait}/>
+   <img src={portrait} alt="portrait"/>
     <div className={classes.texto}>
     <h1>Hola soy Nicolas!</h1>
     <p>Desde el 2019 inicie mi camino en el apasionante mundo de la Informatica y el desarrollo web</p>
@@ -16,7 +16,7 @@ const Bio = (props) => {
     </div>
     </>)
      const english=(<>  
-      <img src={portrait}/>
+      <img src={portrait} alt="portrait"/>
        <div className={classes.texto}>
        <h1>Hi I'm Nicolas!</h1>
        <p>Since 2019 I'm learning web development</p>

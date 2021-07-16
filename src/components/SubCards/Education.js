@@ -6,12 +6,12 @@ import { useContext } from 'react';
 import Contexto from '../store/contexto';
 const Education = (props) => {
   const ctx = useContext(Contexto)
-  const spanish = (<><p><img src={fi} /> Licenciatura en Informática - Facultad de Ciencias Informáticas-Universidad Nacional de La Plata (En curso)</p>
-    <p><img src={fceys} />Licenciatura en Turismo-Facultad de Ciencias Económicas y Sociales. UNMDP (Finalizado)</p>
-    <p><img src={dh} />Full Stack Web Development-Digital House</p></>)
-  const english = (<><p><img src={fi} />Bachelor in Computer science-National University of La Plata (currently studying)</p>
-    <p><img src={fceys} />Bachelor in Tourism. National University of Mar del Plata</p>
-    <p><img src={dh} />Full Stack Web Development-Digital House</p></>)
+  const spanish = (<><p><img src={fi} alt="UNLP logo"  /> Licenciatura en Informática - Facultad de Ciencias Informáticas-Universidad Nacional de La Plata (En curso)</p>
+    <p><img src={fceys} alt="fceys logo" />Licenciatura en Turismo-Facultad de Ciencias Económicas y Sociales. UNMDP (Finalizado)</p>
+    <p><img src={dh} alt="digital-house logo"/>Full Stack Web Development-Digital House</p></>)
+  const english = (<><p><img src={fi} alt="UNLP logo" />Bachelor in Computer science-National University of La Plata (currently studying)</p>
+    <p><img src={fceys} alt="UNMDP logo"/>Bachelor in Tourism. National University of Mar del Plata</p>
+    <p><img src={dh} alt="digital-house logo"/>Full Stack Web Development-Digital House</p></>)
   return (
     <>
       <section>

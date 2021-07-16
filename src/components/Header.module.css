@@ -37,7 +37,7 @@
   .ham{
     color: rgb(235, 15, 198);
   }
-  @media (min-width:767px){
+  @media (min-width:800px){
     .ham{
       display: none;
     }

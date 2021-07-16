@@ -2,7 +2,6 @@
 import Header from './components/Header'
 import Cards from './components/Cards';
 import Contact from './components/Contact'
-import { useState } from 'react'; 
 import ContactMailIcon from '@material-ui/icons/ContactMail';
 import MainCard from './components/MainCard';
 import { useContext} from 'react';
